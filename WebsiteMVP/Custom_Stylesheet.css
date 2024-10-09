@@ -7,6 +7,11 @@
     color: #ffffff
 }
 
+.failed {
+    text-align: center;
+    color: #b40000
+}
+
 
 .containertype01 {
     text-align: center;
@@ -27,6 +32,27 @@
     border: 4px solid "black";
     box-shadow: inset -4px -4px #444444, inset 4px 4px 0 #ffffff;
     margin: auto;
+}
+
+.containertype_windowsblue {
+    text-align: left;
+    background-color: #0731ec;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 65%;
+    padding: 5px;
+    border: 4px solid "black";
+    box-shadow: inset -4px -4px #444444, inset 4px 4px 0 #ffffff;
+    margin: auto;
+}
+
+.windowsGreenButton {
+    background-color: #009e3d;
+    color: #ffffff;
+    border-radius: 2px;
+    padding: 20 px;
+    width: 5%;
+    height: 30px;
 }
 
 .redButton {
