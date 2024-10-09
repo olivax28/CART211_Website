@@ -18,6 +18,17 @@
     margin: auto;
 }
 
+.containertype_blue {
+    text-align: right;
+    background-color: #0003c2;
+    color: #ffffff;
+    width: 25%;
+    padding: 20px;
+    border: 4px solid "black";
+    box-shadow: inset -4px -4px #444444, inset 4px 4px 0 #ffffff;
+    margin: auto;
+}
+
 .redButton {
     background-color: #a50000;
     color: #ffffff;
