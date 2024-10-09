@@ -1,0 +1,71 @@
+.MainLanding {
+    text-align: center;
+}
+
+.secret {
+    text-align: center;
+    color: #ffffff
+}
+
+
+.containertype01 {
+    text-align: center;
+    background-color: #e6e6e6;
+    width: 25%;
+    padding: 20px;
+    border: 4px solid "black";
+    box-shadow: inset -4px -4px #444444, inset 4px 4px 0 #ffffff;
+    margin: auto;
+}
+
+.redButton {
+    background-color: #a50000;
+    color: #ffffff;
+    border-width: 5px;
+}
+
+.greenButton {
+    background-color: #00862d;
+    color: #ffffff;
+    border-width: 5px;
+}
+
+
+.youTubeContainer {
+    background-color: #e6e6e6;
+    float: left;
+    border-radius: 25px;
+    width: 40%;
+    height: 50%;
+    padding: 20px;
+    border: 1px solid #929292;
+    box-shadow: inset -1px -1px #6e6e6e, inset 1px 1px 0 #636363;
+    margin: auto;
+}
+
+.navBar {
+    text-align: center;
+    width: 6%;
+    border: 2px solid #84b9ff;
+    background-color: #bfedff;
+    padding: 20 px;
+    border-radius: 10px;
+    list-style: none;
+    display: inline-block;
+    font-weight: bold;
+    color: #003d8d
+}
+
+.videoContainer {
+    display: inline-block;
+}
+
+.commentcontainer {
+    background-color: #ffffff;
+    text-align: left;
+    width: 40%;
+    height: 50%;
+    padding: 20px;
+    border: 1px solid #929292;
+    box-shadow: inset -1px -1px #6e6e6e, inset 1px 1px 0 #636363;
+}
