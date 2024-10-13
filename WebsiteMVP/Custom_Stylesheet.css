@@ -7,7 +7,7 @@
     color: #ffffff
 }
 
-.secret {
+.secret02 {
     text-align: center;
     color: #b40000
 }
@@ -61,33 +61,86 @@
     border-width: 5px;
 }
 
+.redButton:hover {
+    background-color: #c90000;
+    color: #ffffff;
+    border-width: 5px;
+}
+
 .greenButton {
     background-color: #00862d;
     color: #ffffff;
     border-width: 5px;
 }
 
+.greenButton:hover {
+    background-color: #00b93e;
+    color: #ffffff;
+    border-width: 5px;
+}
+
+
+
 
 .youTubeContainer {
     background-color: #e6e6e6;
-    float: left;
     border-radius: 25px;
-    width: 40%;
+    max-width: 40%;
     height: 50%;
     padding: 20px;
     border: 1px solid #929292;
     box-shadow: inset -1px -1px #6e6e6e, inset 1px 1px 0 #636363;
-    margin: auto;
+    margin: 0, auto;
+}
+
+.youTubeVideoContainer {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 0, auto;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+
+    border: 1px solid #a8a8a8;
+}
+
+.recommendedContainer {
+    max-width: 500px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #a8a8a8;
+    margin: 0, auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .navBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     width: 6%;
     border: 2px solid #84b9ff;
     background-color: #bfedff;
     padding: 20 px;
     border-radius: 10px;
-    list-style: none;
+    display: inline-block;
+    font-weight: bold;
+    color: #003d8d
+}
+
+.navBar:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 6%;
+    border: 2px solid #84b9ff;
+    background-color: #d4f3ff;
+    padding: 20 px;
+    border-radius: 10px;
     display: inline-block;
     font-weight: bold;
     color: #003d8d
@@ -105,4 +158,18 @@
     padding: 20px;
     border: 1px solid #929292;
     box-shadow: inset -1px -1px #6e6e6e, inset 1px 1px 0 #636363;
+}
+
+.videoDescriptionContainer {
+    background-color: #ffffff;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #c9c9c9;
+}
+
+
+.TESTContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
