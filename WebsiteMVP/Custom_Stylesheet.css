@@ -12,6 +12,11 @@
     color: #b40000
 }
 
+.videoTitlesHP {
+    color: #214aff;
+    font-weight: bold;
+}
+
 
 .containertype01 {
     text-align: center;
@@ -80,13 +85,11 @@
 }
 
 
-
-
 .youTubeContainer {
     background-color: #e6e6e6;
-    border-radius: 25px;
+    border-radius: 10px;
     max-width: 40%;
-    height: 50%;
+    height: 50vh;
     padding: 20px;
     border: 1px solid #929292;
     box-shadow: inset -1px -1px #6e6e6e, inset 1px 1px 0 #636363;
@@ -101,7 +104,6 @@
     align-items: left;
     flex-direction: column;
 
-    border: 1px solid #a8a8a8;
 }
 
 .recommendedContainer {
@@ -144,6 +146,17 @@
     display: inline-block;
     font-weight: bold;
     color: #003d8d
+}
+
+.youTubeLandingOrganizer {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 10px;
+    height: 30vh;
+    align-items: start;
+    flex-wrap: wrap;
+
 }
 
 .videoContainer {
