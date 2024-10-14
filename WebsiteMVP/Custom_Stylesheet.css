@@ -7,7 +7,7 @@
     color: #ffffff
 }
 
-.secret02 {
+.failed {
     text-align: center;
     color: #b40000
 }
@@ -51,6 +51,20 @@
     margin: auto;
 }
 
+.beige_container {
+    background-color: #d8ddb8;
+    color: #000000;
+    border-radius: 5px;
+    padding: 20px;
+    width: 25%;
+    box-shadow: inset -4px -4px #444444, inset 4px 4px 0 #ffffff;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 .windowsGreenButton {
     background-color: #009e3d;
     color: #ffffff;
@@ -64,6 +78,18 @@
     background-color: #a50000;
     color: #ffffff;
     border-width: 5px;
+}
+
+.greyButton {
+    background-color: #d2d4cb;
+    color: #000000;
+    border-width: 2px;
+}
+
+.greyButton:hover {
+    background-color: #e2e4db;
+    color: #000000;
+    border-width: 2px;
 }
 
 .redButton:hover {
