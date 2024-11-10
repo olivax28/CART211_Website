@@ -149,30 +149,36 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 6%;
+    width: 115px;
     border: 2px solid #84b9ff;
     background-color: #bfedff;
     padding: 20 px;
     border-radius: 10px;
     display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
+    font-size: medium;
     color: #003d8d
 }
+
 
 .navBar:hover {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 6%;
+    width: 115px;
     border: 2px solid #84b9ff;
-    background-color: #d4f3ff;
+    background-color: #dcf6ff;
     padding: 20 px;
     border-radius: 10px;
     display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
+    font-size: medium;
     color: #003d8d
 }
+
 
 .video_icon {
     display: flex;
