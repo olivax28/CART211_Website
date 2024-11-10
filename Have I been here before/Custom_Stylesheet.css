@@ -122,6 +122,18 @@
     margin: 0, auto;
 }
 
+
+.sidepanel_secondppageBased {
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    width: 100px;
+    height: 500px;
+    padding: 20px;
+    border: 1px solid #929292;
+    box-shadow: inset -1px -1px #6e6e6e, inset 1px 1px 0 #636363;
+    margin: 0, auto;
+}
+
 .youTubeVideoContainer {
     background-color: #ffffff;
     padding: 10px;
