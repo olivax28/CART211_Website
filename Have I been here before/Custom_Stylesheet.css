@@ -236,7 +236,7 @@
     border: 1px solid #c9c9c9;
 }
 
-
+/*note: TEST container is used to center other elements, though I have used it too often to rename it*/
 .TESTContainer {
     display: flex;
     align-items: center;
