@@ -58,6 +58,17 @@
     margin: auto;
 }
 
+.containertype_green {
+    text-align: left;
+    background-image: linear-gradient(to bottom right, rgb(15, 160, 15), rgb(171, 243, 83));
+    color: #ffffff;
+    height: 50px;
+    width: 725px;
+    padding: 15px;
+    border: 4px solid "black";
+    box-shadow: inset -4px -4px #444444, inset 4px 4px 0 #ffffff;
+}
+
 .containertype_windowsblue {
     text-align: left;
     background-color: #0731ec;
@@ -135,7 +146,7 @@
     border-radius: 10px;
     width: 750px;
     height: 600px;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid #929292;
     box-shadow: inset -1px -1px #6e6e6e, inset 1px 1px 0 #636363;
     margin: 0, auto;
