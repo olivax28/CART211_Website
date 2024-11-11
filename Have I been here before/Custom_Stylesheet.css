@@ -12,9 +12,25 @@
     color: #b40000
 }
 
+
+
 .videoTitlesHP {
     color: #214aff;
     font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.videoDescriptions {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.videoFrom {
+    text-decoration: underline;
+    color: #214aff;
 }
 
 
