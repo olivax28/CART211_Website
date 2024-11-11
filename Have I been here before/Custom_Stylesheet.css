@@ -12,6 +12,9 @@
     color: #b40000
 }
 
+.h1MyVidz {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 
 .videoTitlesHP {
@@ -131,7 +134,7 @@
     background-color: #e6e6e6;
     border-radius: 10px;
     width: 750px;
-    height: 500px;
+    height: 600px;
     padding: 20px;
     border: 1px solid #929292;
     box-shadow: inset -1px -1px #6e6e6e, inset 1px 1px 0 #636363;
