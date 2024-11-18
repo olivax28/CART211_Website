@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Have I been here before?</title>
+    <link rel="stylesheet" type="text/css" href="Custom_Stylesheet.css">
+</head>
+<section>
+    <!--White (secret) message-->
+
+    <body>
+        <p CLASS="secret">
+            I'M LOST
+        </p>
+        <p CLASS="secret">
+            I'M LOST
+        </p>
+        <p CLASS="secret">
+            I'M LOST
+        </p>
+        <p CLASS="secret">
+            I'M LOST
+        </p>
+        <p CLASS="secret">
+            I'M LOST
+        </p>
+        <p CLASS="secret">
+            I'M LOST
+        </p>
+        <!--Blue Bar-->
+        <div class="containertype_blue">
+            Music.exe <button class="redButton"> X</button>
+        </div>
+        <!--Grey Body-->
+        <div class="containertype01">
+            <figure>
+                <img src="Assets/ipod_shuffle.png" alt="a grey ipod shuffle">
+            </figure>
+            <button onclick="playAudio()">play</button>
+            <audio src="Assets/crush_song.mp3" id="audioPlayer"></audio>
+            <!--Choices-->
+            <a href="riotpath_end.html">
+                <button class="greyButton">
+                    Push Forward
+                </button>
+            </a>
+            <a href="failed_riot.html">
+                <Button class=greyButton>
+                    I can't do it
+                </button>
+            </a>
+        </div>
+        <!--javascript-->
+        <script>
+            let audioPlayer = document.getElementById("audioPlayer");
+            function play() {
+                audioPlayer.load(); // reload the audio player so that the audio restarts from the beginning on each click
+                audioPlayer.play();
+            }
+        </script>
+
+    </body>
+</section>
+
+</html>
