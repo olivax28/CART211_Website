@@ -36,8 +36,8 @@
             <figure>
                 <img src="Assets/ipod_shuffle.png" alt="a grey ipod shuffle">
             </figure>
-            <button onclick="playAudio()">play</button>
-            <audio src="Assets/crush_song.mp3" id="audioPlayer"></audio>
+            <button onclick="play()">Play</button>
+            <audio id="audio" src="Assets/crush_song.mp3"></audio>
             <!--Choices-->
             <a href="riotpath_end.html">
                 <button class="greyButton">
@@ -52,11 +52,7 @@
         </div>
         <!--javascript-->
         <script>
-            let audioPlayer = document.getElementById("audioPlayer");
-            function play() {
-                audioPlayer.load(); // reload the audio player so that the audio restarts from the beginning on each click
-                audioPlayer.play();
-            }
+            let play = function () { document.getElementById("audio").play() }
         </script>
 
     </body>
