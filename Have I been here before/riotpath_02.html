@@ -32,34 +32,55 @@
             Music.exe <button class="redButton"> X</button>
         </div>
         <!--Grey Body-->
-        <div class="containertype01">
-            <figure>
-                <img src="Assets/ipod_shuffle.png" alt="a grey ipod shuffle">
-            </figure>
-            <!--code found on w3 schools-->
-            <!--Play Audio Button-->
-            <audio id="myAudio">
-                <source src="Assets/crush_song.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-            <button onclick="playAudio()" type="button">Play Audio</button>
-            <button onclick="pauseAudio()" type="button">Pause Audio</button>
-            <!--Choices-->
+        <div class="grey_container_music">
             <a href="riotpath_end.html">
-                <button class="greyButton">
-                    Push Forward
-                </button>
+                <figure>
+                    <img src="Assets/ipod_shuffle.png" alt="a grey ipod shuffle" cursor: pointer;>
+                </figure>
             </a>
+            <!--code found on w3 schools-->
+            <!--Ipod 01-->
+            <div>
+                <audio id="CrushAudio">
+                    <source src="Assets/crush_song.mp3" type="audio/mpeg">
+                </audio>
+                <button onclick="playAudio()" type="button">Play</button>
+                <button onclick="pauseAudio()" type="button">Pause</button>
+            </div>
+            <!--Ipod 02-->
+            <figure>
+                <img src="Assets/ipod_shufflepink.png" alt="a  pink ipod shuffle">
+            </figure>
+            <div>
+                <audio id="windows">
+                    <source src="Assets/windows_startup.mp3" type="audio/mpeg">
+                </audio>
+                <button onclick="playAudio02()" type="button">Play</button>
+                <button onclick="pauseAudio02()" type="button">Pause</button>
+            </div>
+            <!--Ipod 03-->
             <a href="failed_riot.html">
-                <Button class=greyButton>
-                    I can't do it
-                </button>
+                <figure>
+                    <img src="Assets/ipod_shuffleblue.png" alt="a  pink ipod shuffle">
+                </figure>
             </a>
+            <div>
+                <audio id="windows">
+                    <source src="Assets/.mp3" type="audio/mpeg">
+                </audio>
+                <button onclick="playAudio03()" type="button">Play</button>
+                <button onclick="pauseAudio03()" type="button">Pause</button>
+            </div>
         </div>
+        </div>
+
+
+
+
         <!--javascript-->
         <script>
             // code found on W3 schools
-            var music = document.getElementById("myAudio");
+            var music = document.getElementById("CrushAudio");
 
             function playAudio() {
                 music.play();
@@ -67,6 +88,26 @@
 
             function pauseAudio() {
                 music.pause();
+            }
+
+            var music02 = document.getElementById("windows");
+
+            function playAudio02() {
+                music02.play();
+            }
+
+            function pauseAudio02() {
+                music02.pause();
+            }
+
+            var music03 = document.getElementById("static");
+
+            function playAudio03() {
+                music03.play();
+            }
+
+            function pauseAudio03() {
+                music03.pause();
             }
 
         </script>
