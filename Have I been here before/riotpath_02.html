@@ -36,8 +36,14 @@
             <figure>
                 <img src="Assets/ipod_shuffle.png" alt="a grey ipod shuffle">
             </figure>
-            <button onclick="play()">Play</button>
-            <audio id="audio" src="Assets/crush_song.mp3"></audio>
+            <!--code found on w3 schools-->
+            <!--Play Audio Button-->
+            <audio id="myAudio">
+                <source src="Assets/crush_song.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <button onclick="playAudio()" type="button">Play Audio</button>
+            <button onclick="pauseAudio()" type="button">Pause Audio</button>
             <!--Choices-->
             <a href="riotpath_end.html">
                 <button class="greyButton">
@@ -52,7 +58,17 @@
         </div>
         <!--javascript-->
         <script>
-            let play = function () { document.getElementById("audio").play() }
+            // code found on W3 schools
+            var music = document.getElementById("myAudio");
+
+            function playAudio() {
+                music.play();
+            }
+
+            function pauseAudio() {
+                music.pause();
+            }
+
         </script>
 
     </body>
