@@ -106,6 +106,9 @@
     margin: auto;
 }
 
+
+
+
 .beige_container {
     background-color: #d8ddb8;
     color: #000000;
@@ -313,6 +316,8 @@
     justify-content: center
 }
 
+/*All the stuff needed for Riotpath_end*/
+/*Bliss Screen wallpaper*/
 .windows_screen {
     background-image: url("Assets/bliss.jpg");
     position: fixed;
@@ -322,6 +327,70 @@
     background-size: cover;
     background-position: center;
     margin: -8px 0 0 -6px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*the blue bar to go on the Bliss Background*/
+.windowshome_bluetime {
+    text-align: center;
+    background-color: #3180ff;
+    color: #ffffff;
+    border-radius: 5px;
+    border-color: #214aff;
+    height: 45px;
+    width: 15%;
+    padding: 0px;
+    box-shadow: inset 0px 5px 10px 0px rgba(188, 226, 255, 0.876);
+    margin: auto;
+    float: right;
+    bottom: 0;
+
+}
+
+.windowshome_bluetime:hover {
+    text-align: center;
+    background-color: #2867cd;
+    color: #ffffff;
+    border-radius: 5px;
+    border-color: #214aff;
+    height: 45px;
+    width: 15%;
+    padding: 0px;
+    box-shadow: inset 0px 5px 10px 0px rgba(188, 226, 255, 0.876);
+    margin: auto;
+    float: right;
+    bottom: 0;
+}
+
+/*the blue bar to go on the Bliss Background*/
+.windowshome_blue {
+    text-align: left;
+    background-color: #2449f1;
+    color: #ffffff;
+    border-radius: 5px;
+    height: 45px;
+    width: 100%;
+    padding: 0px;
+    box-shadow: inset 0px 5px 10px 0px rgba(101, 188, 255, 0.5);
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+
+}
 
 
+.windowshome_start {
+    background-image: url("Assets/xpstart.png");
+    color: transparent;
+    height: 50px;
+    width: 50px;
+}
+
+.windowshome_start:hover {
+    background-image: url("Assets/xpstart_pressed.png");
+    cursor: pointer;
+    color: transparent;
+    height: 50px;
+    width: 50px;
 }
