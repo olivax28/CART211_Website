@@ -35,47 +35,51 @@
         <div class="grey_container_music">
             <a href="riotpath_end.html">
                 <!--Ipod 01-->
-                <figure>
-                    <img src="Assets/ipod_shuffle.png" alt="a grey ipod shuffle" cursor: pointer;>
-                </figure>
-            </a>
-            <!--code found on w3 schools-->
-            <!--Play and pause buttons-->
-            <div>
-                <audio id="CrushAudio">
-                    <source src="Assets/crush_song.mp3" type="audio/mpeg">
-                </audio>
-                <button onclick="playAudio()" type="button">Play</button>
-                <button onclick="pauseAudio()" type="button">Pause</button>
-            </div>
-            <!--Ipod 02-->
-            <figure>
-                <img src="Assets/ipod_shufflepink.png" alt="a  pink ipod shuffle">
-            </figure>
-            <!--Play and pause buttons-->
-            <div>
-                <audio id="windows">
-                    <source src="Assets/windows_startup.mp3" type="audio/mpeg">
-                </audio>
-                <button onclick="playAudio02()" type="button">Play</button>
-                <button onclick="pauseAudio02()" type="button">Pause</button>
-            </div>
-            <!--Ipod 03-->
-            <a href="failed_riot.html">
-                <figure>
-                    <img src="Assets/ipod_shuffleblue.png" alt="a  pink ipod shuffle">
-                </figure>
-            </a>
-            <!--Play and pause button-->
-            <div>
-                <audio id="windows">
-                    <source src="Assets/.mp3" type="audio/mpeg">
-                </audio>
-                <button onclick="playAudio03()" type="button">Play</button>
-                <button onclick="pauseAudio03()" type="button">Pause</button>
-            </div>
+                <a href="catpath_03.html">
+                    <figure>
+                        <img src="Assets/ipod_shufflegreen.png" alt="a green ipod shuffle" cursor: pointer;>
+                    </figure>
+                </a>
+                <!--code found on w3 schools-->
+                <!--Play and pause buttons-->
+                <div>
+                    <audio id="CrushAudio">
+                        <source src="Assets/crush_song_edited.mp3" type="audio/mp3">
+                    </audio>
+                    <button onclick="playAudio()" type="button">Play</button>
+                    <button onclick="pauseAudio()" type="button">Pause</button>
+                </div>
+                <!--Ipod 02 Clicking the image will choose a path-->
+                <a href="failed_riot.html">
+                    <figure>
+                        <img src="Assets/ipod_shufflepink.png" alt="a  pink ipod shuffle">
+                    </figure>
+                </a>
+                <!--Play and pause buttons-->
+                <div>
+                    <audio id="hippo">
+                        <source src="Assets/hippo_song.mp3" type="audio/mp3">
+                    </audio>
+                    <button onclick="playAudio03()" type="button">Play</button>
+                    <button onclick="pauseAudio03()" type="button">Pause</button>
+                </div>
+                <!--Ipod 03-->
+                <a href="riotpath_end.html">
+                    <figure>
+                        <img src="Assets/ipod_shuffleblue.png" alt="a  pink ipod shuffle">
+                    </figure>
+                </a>
+                <!--Play and pause button-->
+                <div>
+                    <audio id="windows">
+                        <source src="Assets/windows_startup.mp3" type="audio/mp3">
+                    </audio>
+                    <button onclick="playAudio02()" type="button">Play</button>
+                    <button onclick="pauseAudio02()" type="button">Pause</button>
+                </div>
+
         </div>
-        </div>
+
 
 
 
@@ -104,7 +108,7 @@
                 music02.pause();
             }
             // Audio 03
-            var music03 = document.getElementById("static");
+            var music03 = document.getElementById("hippo");
 
             function playAudio03() {
                 music03.play();
