@@ -34,12 +34,13 @@
         <!--Grey Body-->
         <div class="grey_container_music">
             <a href="riotpath_end.html">
+                <!--Ipod 01-->
                 <figure>
                     <img src="Assets/ipod_shuffle.png" alt="a grey ipod shuffle" cursor: pointer;>
                 </figure>
             </a>
             <!--code found on w3 schools-->
-            <!--Ipod 01-->
+            <!--Play and pause buttons-->
             <div>
                 <audio id="CrushAudio">
                     <source src="Assets/crush_song.mp3" type="audio/mpeg">
@@ -51,6 +52,7 @@
             <figure>
                 <img src="Assets/ipod_shufflepink.png" alt="a  pink ipod shuffle">
             </figure>
+            <!--Play and pause buttons-->
             <div>
                 <audio id="windows">
                     <source src="Assets/windows_startup.mp3" type="audio/mpeg">
@@ -64,6 +66,7 @@
                     <img src="Assets/ipod_shuffleblue.png" alt="a  pink ipod shuffle">
                 </figure>
             </a>
+            <!--Play and pause button-->
             <div>
                 <audio id="windows">
                     <source src="Assets/.mp3" type="audio/mpeg">
@@ -80,8 +83,9 @@
         <!--javascript-->
         <script>
             // code found on W3 schools
+            // defines functions for play and pause buttons for audio one to 3
             var music = document.getElementById("CrushAudio");
-
+            // Audio 01
             function playAudio() {
                 music.play();
             }
@@ -89,7 +93,7 @@
             function pauseAudio() {
                 music.pause();
             }
-
+            //audio 02
             var music02 = document.getElementById("windows");
 
             function playAudio02() {
@@ -99,7 +103,7 @@
             function pauseAudio02() {
                 music02.pause();
             }
-
+            // Audio 03
             var music03 = document.getElementById("static");
 
             function playAudio03() {
