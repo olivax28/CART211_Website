@@ -312,3 +312,7 @@
     align-items: center;
     justify-content: center
 }
+
+.windows_scree {
+    background-image: url("Assets/bliss.jpg");
+}
