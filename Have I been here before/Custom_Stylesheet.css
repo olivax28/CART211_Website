@@ -357,6 +357,7 @@
     background-color: #2867cd;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ffffff;
+    cursor: pointer;
     border-radius: 5px;
     border-color: #214aff;
     height: 45px;

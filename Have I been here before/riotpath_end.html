@@ -9,11 +9,11 @@
 <!--desktop-->
 <section class="windows_screen">
     <figure>
-        <img src="Assets/my_computer_icon.png" height="100" width="100">
+        <img src="Assets/my_computer_icon.png" height="90" width="90">
         <figcaption>My Computer</figcaption>
     </figure>
     <figure>
-        <img src="Assets/recycling_icon.png" height="100" width="100">
+        <img src="Assets/recycling_icon.png" height="90" width="90">
         <figcaption>Recycling Bin</figcaption>
     </figure>
 
@@ -25,9 +25,17 @@
             1:00 AM (Shouldn't you be alseep?)
         </button>
         <!--Start Button-->
-        <div class="windowshome_start">hjhjhjh</div>
+        <!-- A button to open the popup, example taken from w3 schools and modified by me-->
+        <div class="windowshome_start" onclick="openForm()">Bye bye</div>
     </div>
-
+    <!-- The form -->
+    <div class="beige_container" id="popup">
+        <form action="/action_page.php" class="form-container">
+            <h1>Leaving so soon?</h1>
+            <button type="button" class="redButton" onclick="closeForm()">X</button>
+            <button type="submit" class="greenButton">Yes</button>
+        </form>
+    </div>
 
 </section>
 <!--Javascript-->
@@ -35,8 +43,14 @@
 <script>
     const windows_play = new Audio(" Assets/windows_startup.mp3"); windows_play.volume = 0.2; windows_play.play();
     //script taken from lab 08
+    //Form popup script taken from w3 schools
+    function openForm() {
+        document.getElementById("popup").style.display = "block";
+    }
+
+    function closeForm() {
+        document.getElementById("popup").style.display = "none";
+    }
 </script>
-
-
 
 </html>
