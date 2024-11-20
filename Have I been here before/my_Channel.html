@@ -9,75 +9,54 @@
 
 <body>
 
+    <!--Navigation bar-->
     <div class="TESTContainer">
         <div class="video_icon">
             <img src="Assets/video_logo.png" alt="youtube's logo" width="150" height="120" />
         </div>
-        <div class="navBar">
-            Home
-        </div>
-        <div class="navBar">
-            My Channel
-        </div>
-        <div class="navBar">
-            Subscriptions
+        <a href="homeButton.html">
+            <button class="navBar">
+                Home
+            </button>
+        </a>
+        <a href="my_Channel.html">
+            <button class="navBar">
+                My Channel
+            </button>
+        </a>
+        <a href="subscriptions_button.html">
+            <button class="navBar">
+                Subscriptions
+            </button>
+        </a>
+        <!--Search bar-->
+        <div class="searchbar">
+            <label for="search"><b>Search</b></label>
+            <input type="search" placeholder="Currently disabled">
         </div>
     </div>
-    </p>
-    <!--video -->
-    <main>
-        <div class="TESTContainer">
-            <div class="youTubeVideoContainer">
-                <h1>MY CHANNEL</h1>
-                <!--video insert-->
-                <video controls="controls" width="500" height="500">
-                    <source src="Assets/Lionsleepstonight.mp4" type="video/mp4">
-                </video>
-                <div class="videoDescriptionContainer">
-                    <h3> Description</h3>
-                    I don't know where this came from...it spooks me a little but still makes me sad...
-                    <div>
-                        <a href="SecondPage.html">
-                            <button class="greenButton">
-                                I can't stay here...
-                            </button>
-                        </a>
-                        <h2>
-                            Comments and Responses
-                        </h2>
-                    </div>
-                    </feel>
-                </div>
-            </div>
-            <!--recommended -->
-            <div class="recommendedContainer">
-                <figure>
-                    <img src="Assets/placeholder.png" alt="youtube's logo" width="150" height="100">
-                    <figcaption>Placeholder
-                </figure>
-                <figure>
-                    <img src="Assets/paramore.jpg" alt="Picture from the Riot album by Paramore" width="150"
-                        height="100">
-                    <figcaption><a href="riotPage.html">Riot! by Paramore</a></figcaption>
-                </figure>
-                <figure>
-                    <img src="Assets/placeholder.png" alt="youtube's logo" width="150" height="100">
-                    <figcaption>Placeholder
-                </figure>
-                <figure>
-                    <img src="Assets/funnycat.jpg" alt="youtube's logo" width="150" height="100">
-                    <figcaption><a href="catPage.html">Funniest Cats Ever!</a></figcaption>
-                </figure>
-                <figure>
-                    <img src="Assets/placeholder.png" alt="youtube's logo" width="150" height="100">
-                    <figcaption>Placeholder
-                </figure>
-                <figure>
-                    <img src="Assets/placeholder.png" alt="youtube's logo" width="150" height="100">
-                    <figcaption>Placeholder
-                </figure>
-            </div>
+    </div>
+    <!--Error message-->
+    <div class="TESTContainer" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        Sorry, <img src="Assets/video_logo.png" height="100"> is currently disabled for Login and new accounts
+    </div>
+    <div>
+        <div>
+            <form class="beige_container" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                <h1>Login</h1>
 
-    </main>
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                <p>
+                    <button type="submit" class="greyButton">Login</button>
+                </p>
+            </form>
+        </div>
+
+
+        </main>
     </div>
 </body>
