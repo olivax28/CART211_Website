@@ -4,80 +4,115 @@
 <head>
     <title> Have I been here before?</title>
     <link rel="stylesheet" type="text/css" href="Custom_Stylesheet.css">
-    <link rel="icon" type="image/PNG" href="Assets/meow_face.png">
+    <link rel="icon" type="image/gif" href="Assets/searching.gif">
 </head>
 
 <body>
-
-    <div class="TESTContainer">
-        <div class="video_icon">
-            <img src="Assets/video_logo.png" alt="youtube's logo" width="150" height="120" />
-        </div>
-        <div class="navBar">
-            Home
-        </div>
-        <div class="navBar">
-            My Channel
-        </div>
-        <div class="navBar">
-            Subscriptions
-        </div>
-    </div>
-    </p>
-    <!--video -->
     <main>
+        <!--Navigation bar-->
         <div class="TESTContainer">
-            <div class="youTubeVideoContainer">
-                <h1>Subscriptions</h1>
-                <!--video insert-->
-                <video controls="controls" width="500" height="500">
-                    <source src="Assets/Lionsleepstonight.mp4" type="video/mp4">
-                </video>
-                <div class="videoDescriptionContainer">
-                    <h3> Description</h3>
-                    I don't know where this came from...it spooks me a little but still makes me sad...
-                    <div>
-                        <a href="SecondPage.html">
-                            <button class="greenButton">
-                                I can't stay here...
-                            </button>
-                        </a>
-                        <h2>
-                            Comments and Responses
-                        </h2>
-                    </div>
-                    </feel>
+            <div class="video_icon">
+                <img src="Assets/video_logo.png" alt="youtube's logo" width="150" height="120" />
+            </div>
+            <a href="homeButton.html">
+                <button class="navBar">
+                    Home
+                </button>
+            </a>
+            <a href="my_Channel.html">
+                <button class="navBar">
+                    My Channel
+                </button>
+            </a>
+            <a href="subscriptions_button.html">
+                <button class="navBar">
+                    Subscriptions
+                </button>
+            </a>
+            <!--Search bar-->
+            <div class="searchbar">
+                <label for="search"><b>Search</b></label>
+                <input type="search" placeholder="Currently disabled">
+            </div>
+        </div>
+        <!--Video trending display container-->
+        <div class="TESTContainer">
+            <div class="youTubeContainer_subscriptions">
+                <div class="containertype_green">
+                    <h1 class="h1MyVidz"> Your Subscriptions</h1>
+                </div>
+                <div class="youTubeLandingOrganizer_subscriptions">
+                    <figure>
+                        <img src="Assets/static_01.jpg" alt="Picture from the Riot album by Paramore" width="150"
+                            height="100">
+                        <figcaption class="videoTitlesHP"><a href="Subscriptions_videos.html">memory</a></figcaption>
+                        <!--video description: Paramore-->
+                        <div class="videoDescriptions">
+                            Newest From: <span class="videoFrom"> Nostalgia </span>
+                        </div>
+                        <div class="videoDescriptions">
+                            3:09
+                        </div>
+                        <div class="videoDescriptions">
+                            Added <b>20 years ago</b>
+                        </div>
+                        <div class="videoDescriptions">
+                            Views: 2008
+                        </div>
+                        <div class="videoDescriptions">
+                            <img src="Assets/4_and_half_star.png" alt="four and a half stars">
+                        </div>
+                        <!--video description: end-->
+                    </figure>
+                    <figure>
+                        <img src="Assets/static_02.png" alt="youtube's logo" width="150" height="100">
+                        <figcaption class="videoTitlesHP"><a href="Subscriptions_videos.html">Tired</a></figcaption>
+                        <!--video description: Lion Sleeps Tonight-->
+                        <div class="videoDescriptions">
+                            Newest From: <span class="videoFrom"> Burn </span>
+                        </div>
+                        <div class="videoDescriptions">
+                            2:37
+                        </div>
+                        <div class="videoDescriptions">
+                            Added <b>1 year ago</b>
+                        </div>
+                        <div class="videoDescriptions">
+                            Views: 7.5k
+                        </div>
+                        <div class="videoDescriptions">
+                            <img src="Assets/5_star.png" alt="five stars">
+                        </div>
+                        <!--video description: end-->
+                    </figure>
+                    <figure>
+                        <img src="Assets/static_03.jpg" alt="youtube's logo" width="150" height="100">
+                        <figcaption class="videoTitlesHP"><a href="Subscriptions_videos.html">When did it get so
+                                dark</a>
+                        </figcaption>
+                        <!--video description 03-->
+                        <div class="videoDescriptions">
+                            Newest From: <span class="videoFrom"> Seasons </span>
+                        </div>
+                        <div class="videoDescriptions">
+                            2:45
+                        </div>
+                        <div class="videoDescriptions">
+                            Added <b>2 months agoo</b>
+                        </div>
+                        <div class="videoDescriptions">
+                            Views: 5000
+                        </div>
+                        <div class="videoDescriptions">
+                            <img src="Assets/4_star.png" alt="five stars">
+                        </div>
+                        <!--video description: end-->
+                    </figure>
                 </div>
             </div>
-            <!--recommended -->
-            <div class="recommendedContainer">
-                <figure>
-                    <img src="Assets/placeholder.png" alt="youtube's logo" width="150" height="100">
-                    <figcaption>Placeholder
-                </figure>
-                <figure>
-                    <img src="Assets/paramore.jpg" alt="Picture from the Riot album by Paramore" width="150"
-                        height="100">
-                    <figcaption><a href="riotPage.html">Riot! by Paramore</a></figcaption>
-                </figure>
-                <figure>
-                    <img src="Assets/placeholder.png" alt="youtube's logo" width="150" height="100">
-                    <figcaption>Placeholder
-                </figure>
-                <figure>
-                    <img src="Assets/funnycat.jpg" alt="youtube's logo" width="150" height="100">
-                    <figcaption><a href="catPage.html">Funniest Cats Ever!</a></figcaption>
-                </figure>
-                <figure>
-                    <img src="Assets/placeholder.png" alt="youtube's logo" width="150" height="100">
-                    <figcaption>Placeholder
-                </figure>
-                <figure>
-                    <img src="Assets/placeholder.png" alt="youtube's logo" width="150" height="100">
-                    <figcaption>Placeholder
-                </figure>
-            </div>
-
+        </div>
     </main>
-    </div>
 </body>
+
+
+</html>
