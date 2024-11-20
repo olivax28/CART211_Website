@@ -314,12 +314,12 @@
 .commentcontainer {
     background-color: #ffffff;
     text-align: left;
-    width: 40%;
-    height: 50%;
-    padding: 20px;
+    height: fit-content;
+    padding: 5px;
     border: 1px solid #929292;
     border-radius: px;
     box-shadow: inset -1px -1px #6e6e6e, inset 1px 1px 0 #636363;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .videoDescriptionContainer {
