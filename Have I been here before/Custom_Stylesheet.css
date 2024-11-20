@@ -12,30 +12,6 @@
     color: #b40000
 }
 
-.h1MyVidz {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-
-.videoTitlesHP {
-    color: #214aff;
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-
-}
-
-.videoDescriptions {
-
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-
-.videoFrom {
-    text-decoration: underline;
-    color: #214aff;
-}
-
 
 .containertype01 {
     text-align: center;
@@ -84,17 +60,6 @@
 }
 
 
-
-.containertype_green {
-    text-align: left;
-    background-image: linear-gradient(to bottom right, rgb(15, 160, 15), rgb(171, 243, 83));
-    color: #ffffff;
-    height: 50px;
-    width: 725px;
-    padding: 15px;
-    border: 4px solid "black";
-    box-shadow: inset -4px -4px #444444, inset 4px 4px 0 #ffffff;
-}
 
 .containertype_windowsblue {
     text-align: left;
@@ -171,6 +136,54 @@
     color: #ffffff;
     border-width: 5px;
     cursor: pointer;
+}
+
+/*Everything needed for the 'youtube' video sharing platform*/
+
+.h1MyVidz {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.videoTitlesHP {
+    color: #214aff;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.videoDescriptions {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.videoFrom {
+    text-decoration: underline;
+    color: #214aff;
+}
+
+.containertype_green {
+    text-align: left;
+    background-image: linear-gradient(to bottom right, rgb(15, 160, 15), rgb(171, 243, 83));
+    color: #ffffff;
+    height: 50px;
+    width: 725px;
+    padding: 15px;
+    border: 4px solid "black";
+    box-shadow: inset -4px -4px #444444, inset 4px 4px 0 #ffffff;
+}
+
+.searchbar {
+    text-align: left;
+    background-image: linear-gradient(to bottom right, rgb(15, 160, 15), rgb(171, 243, 83));
+    color: #ffffff;
+    height: 30px;
+    width: 250px;
+    padding: 15px;
+    border: 4px solid "black";
+    box-shadow: inset -4px -4px #444444, inset 4px 4px 0 #ffffff;
 }
 
 
