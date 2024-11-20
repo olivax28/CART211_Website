@@ -9,11 +9,11 @@
 <!--desktop-->
 <section class="windows_screen">
     <figure>
-        <img src="Assets/my_computer_icon.png" height="90" width="90">
+        <img src="Assets/my_computer_icon.png" height="90" width="90" style="cursor:wait">
         <figcaption>My Computer</figcaption>
     </figure>
     <figure>
-        <img src="Assets/recycling_icon.png" height="90" width="90">
+        <img src="Assets/recycling_icon.png" height="90" width="90" style="cursor:wait">
         <figcaption>Recycling Bin</figcaption>
     </figure>
 
@@ -28,24 +28,19 @@
         <!-- A button to open the popup, example taken from w3 schools and modified by me-->
         <div class="windowshome_start" onclick="openForm()"></div>
     </div>
-    <!-- The form
-       <div class="beige_container" id="popup">
-        <form action="/action_page.php">
-            <h1>Leaving so soon?</h1>
-            <button type="button" class="redButton" onclick="closeForm()">X</button>
-            <button type="submit" class="greenButton">Yes</button>
-        </form>
-    </div> -->
     <!-- The form -->
-    <div id="myForm">
+    <div id="popup">
         <form action="/action_page.php">
             <div class="containertype_blue">
                 <button type="button" class="redButton" onclick="closeForm()">X</button>
             </div>
             <div class="beige_container">
-                <h1 style="font-family:Verdana, Geneva, Tahoma, sans-serif ;">Leaving so soon?</h1>
-                <button class="greenButton">Yes. Goodbye.</button>
+                <p style="font-family:Verdana, Geneva, Tahoma, sans-serif ;">Leaving so soon?</p>
+                <a href="riotpath_exit.html">
+                    <div class="windows_xp_buttonStyle"> Yes</div>
+                </a>
             </div>
+
         </form>
     </div>
 
@@ -58,11 +53,11 @@
     const windows_play = new Audio(" Assets/windows_startup.mp3"); windows_play.volume = 0.2; windows_play.play();
     //Form popup script taken from w3 schools
     function openForm() {
-        document.getElementById("myForm").style.display = "block";
+        document.getElementById("popup").style.display = "block";
     }
 
     function closeForm() {
-        document.getElementById("myForm").style.display = "none";
+        document.getElementById("popup").style.display = "none";
     }
 
 </script>
