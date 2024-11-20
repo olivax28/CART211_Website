@@ -362,9 +362,84 @@
 
 
 
+/*Windows home screen for the cat path*/
+.grey_container_meow {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #b1b1b1;
+    width: 480px;
+    padding: 20px;
+    border: 4px solid "black";
+    box-shadow: inset -4px -4px #444444, inset 4px 4px 0 #ffffff;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+/*95 Screen wallpaper*/
+.windows_screen95 {
+    background-image: url("Assets/windows95.jpg");
+    position: fixed;
+    color: #000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 10px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: -8px 0 0 -6px;
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 /*All the stuff needed for Riotpath_end*/
 /*Bliss Screen wallpaper*/
+
+
+/*Popup modified from w3 schools*/
+/* Popup container Popup */
+.popup {
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* the popup*/
+.beige_container_popup {
+    visibility: hidden;
+    background-color: #d8ddb8;
+    color: #000000;
+    border-radius: 5px;
+    padding: 20px;
+    width: 25%;
+    box-shadow: inset -4px -4px #444444, inset 4px 4px 0 #ffffff;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.containertype_blue_popup {
+    visibility: hidden;
+    text-align: right;
+    background-color: #0003c2;
+    color: #ffffff;
+    width: 25%;
+    padding: 20px;
+    border: 4px solid "black";
+    box-shadow: inset -4px -4px #444444, inset 4px 4px 0 #ffffff;
+    margin: auto;
+}
+
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+}
+
 .windows_screen {
     background-image: url("Assets/bliss.jpg");
     position: fixed;
@@ -394,7 +469,7 @@
 
 }
 
-/*the blue bar to go on the Bliss Background*/
+/*the blue bar displaying time to go on the Bliss Background*/
 .windowshome_bluetime {
     text-align: center;
     background-color: #3180ff;

@@ -6,11 +6,57 @@
     <link rel="stylesheet" type="text/css" href="Custom_Stylesheet.css">
     <link rel="icon" type="image/PNG" href="Assets/meow_face.png">
 </head>
-<section>
+<!--desktop-->
+<section class="windows_screen95">
+    <figure>
+        <img src="Assets/desktop95.png" height="100" width="100" style="cursor:wait">
+        <figcaption>My Computer</figcaption>
+    </figure>
+    <figure>
+        <img src="Assets/reclycling95.png" height="90" width="90" style="cursor:wait">
+        <figcaption>Recycling Bin</figcaption>
+    </figure>
 
-    <body>
+    <!--Task Bar-->
+    <div class="windowshome_blue">
+        <!--Right hand time display-->
+        <button class="windowshome_bluetime">
+            <img src="Assets/searching.gif" height="20">
+            1:00 AM (Shouldn't you be alseep?)
+        </button>
+        <!--Start Button-->
+        <!-- A button to open the popup, example taken from w3 schools and modified by me-->
+        <div class="windowshome_start" onclick="openForm()"></div>
+    </div>
+    <!-- The form -->
+    <div id="popup">
+        <form action="/action_page.php">
+            <div class="containertype_blue">
+                <button type="button" class="redButton" onclick="closeForm()">X</button>
+            </div>
+            <div class="grey_container_meow">
+                <p style="font-family:Verdana, Geneva, Tahoma, sans-serif ;">Welcome to some semblance of Windows 95!
+                <p></p>
+            </div>
+        </form>
+    </div>
 
-    </body>
+
 </section>
+<!--Javascript-->
+<!--plays windows startup on load-->
+<script>
+    //script taken from lab 08
+    const windows_play = new Audio("Assets/95_startup.mp3"); windows_play.volume = 0.2; windows_play.play();
+    //Form popup script taken from w3 schools
+    function openForm() {
+        document.getElementById("popup").style.display = "block";
+    }
+
+    function closeForm() {
+        document.getElementById("popup").style.display = "none";
+    }
+
+</script>
 
 </html>

@@ -26,23 +26,26 @@
         </button>
         <!--Start Button-->
         <!-- A button to open the popup, example taken from w3 schools and modified by me-->
-        <div class="windowshome_start" onclick="openForm()"></div>
+        <div class="windowshome_start" onclick="togglePopUp()"></div>
     </div>
     <!-- The form -->
-    <div id="popup">
+    <div style="visibility: hidden;">
         <form action="/action_page.php">
-            <div class="containertype_blue">
-                <button type="button" class="redButton" onclick="closeForm()">X</button>
-            </div>
-            <div class="beige_container">
-                <p style="font-family:Verdana, Geneva, Tahoma, sans-serif ;">Leaving so soon?
-                <p></p>
-                <a href="riotpath_exit.html">
-                    <div class="windows_xp_buttonStyle"> Yes</div>
-                </a>
-            </div>
 
-        </form>
+    </div>
+    <div class="popup">
+        <div class="containertype_blue_popup" id="myPopup02">
+            <button type="button" class="redButton" onclick="togglePopUp()">X</button>
+        </div>
+        <div class="beige_container_popup" id="myPopup">
+            <p style="font-family:Verdana, Geneva, Tahoma, sans-serif ;">Leaving so soon?
+            <p></p>
+            <a href="riotpath_exit.html">
+                <div class="windows_xp_buttonStyle"> Yes</div>
+            </a>
+        </div>
+    </div>
+
     </div>
 
 
@@ -53,14 +56,16 @@
     //script taken from lab 08
     const windows_play = new Audio(" Assets/windows_startup.mp3"); windows_play.volume = 0.2; windows_play.play();
     //Form popup script taken from w3 schools
-    function openForm() {
-        document.getElementById("popup").style.display = "block";
-    }
+</script>
+<script>
+    // When the user clicks on <div>, open the popup
+    function togglePopUp() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
 
-    function closeForm() {
-        document.getElementById("popup").style.display = "none";
+        var popup = document.getElementById("myPopup02");
+        popup.classList.toggle("show");
     }
-
 </script>
 
 </html>
