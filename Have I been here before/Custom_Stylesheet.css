@@ -1,3 +1,5 @@
+/* for the landing page*/
+
 .MainLanding {
     text-align: center;
 }
@@ -12,7 +14,7 @@
     color: #b40000
 }
 
-
+/*Buildong block elements*/
 .containertype01 {
     text-align: center;
     background-color: #e6e6e6;
@@ -35,18 +37,7 @@
     flex-direction: row;
 }
 
-.grey_container_music {
-    background-color: #e6e6e6;
-    width: 80%;
-    padding: 20px;
-    border: 4px solid "black";
-    box-shadow: inset -4px -4px #444444, inset 4px 4px 0 #ffffff;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
 
-}
 
 .containertype_blue {
     text-align: right;
@@ -165,7 +156,7 @@
     cursor: pointer;
 }
 
-/*Everything needed for the 'youtube' video sharing platform*/
+/*Everything needed for the 'MyVidz' video sharing platform*/
 
 .h1MyVidz {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -423,7 +414,20 @@
 
 
 /*All the stuff needed for Riotpath_end*/
-/*Bliss Screen wallpaper*/
+.grey_container_music {
+    background-color: #e6e6e6;
+    width: 80%;
+    padding: 20px;
+    border: 4px solid "black";
+    box-shadow: inset -4px -4px #444444, inset 4px 4px 0 #ffffff;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+
 
 
 /*Popup modified from w3 schools*/

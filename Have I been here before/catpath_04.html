@@ -75,6 +75,7 @@
     //script taken from lab 08
     const windows_play = new Audio("Assets/95_startup.mp3"); windows_play.volume = 0.2; windows_play.play();
     //Form and popup script modified from w3 schools
+    //Close with X button and open with start
     function openForm() {
         document.getElementById("popup").style.display = "block";
     }
@@ -82,6 +83,7 @@
     function closeForm() {
         document.getElementById("popup").style.display = "none";
     }
+    //Toggle with my computer icon
     function togglePopUp() {
         var popup = document.getElementById("myPopup");
         popup.classList.toggle("show");
