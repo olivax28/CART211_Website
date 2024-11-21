@@ -90,6 +90,33 @@
     flex-wrap: wrap;
 }
 
+
+/* To hold the cassette*/
+
+.beige_container_cassette {
+    background-color: #d8ddb8;
+    color: #000000;
+    border-radius: 5px;
+    padding: 20px;
+    width: fit-content;
+    box-shadow: inset -4px -4px #444444, inset 4px 4px 0 #ffffff;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cassette_blue {
+    text-align: right;
+    background-color: #0003c2;
+    color: #ffffff;
+    width: 42%;
+    padding: 20px;
+    border: 4px solid "black";
+    box-shadow: inset -4px -4px #444444, inset 4px 4px 0 #ffffff;
+    margin: auto;
+}
+
 .windowsGreenButton {
     background-color: #009e3d;
     color: #ffffff;

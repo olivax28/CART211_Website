@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Have I been here before?</title>
+    <link rel="stylesheet" type="text/css" href="Custom_Stylesheet.css">
+    <link rel="icon" type="image/gif" href="Assets/searching.gif">
+</head>
+<section>
+    <!--White (secret) message-->
+
+
+    <p CLASS="secret">
+        I'M LOST
+    </p>
+    <p CLASS="secret">
+        I'M LOST
+    </p>
+    <p CLASS="secret">
+        I'M LOST
+    </p>
+    <p CLASS="secret">
+        I'M LOST
+    </p>
+    <p CLASS="secret">
+        I'M LOST
+    </p>
+    <p CLASS="secret">
+        I'M LOST
+    </p>
+
+    <body>
+        <!--Blue Bar-->
+        <div class="cassette_blue">
+            Maybe there is a point.html <a href="riotpath_exit.html"><button class="redButton">X</button></a>
+        </div>
+        <!--Grey Body-->
+        <div class="beige_container_cassette">
+            <!--Ipod 01 Clicking the image will choose a path-->
+            <figure>
+                <img src="Assets/cassette.gif" alt="a rolling cassette">
+            </figure>
+            <!--code found on w3 schools-->
+            <!--Play and pause buttons-->
+            <div class="TESTContainer">
+                <audio id="cassette">
+                    <source src="Assets/elevator.mp3" type="audio/mp3">
+                </audio>
+                <button onclick="playAudio()" type="button">Play</button>
+                <button onclick="pauseAudio()" type="button">Pause</button>
+            </div>
+            <!--Text-->
+            <div>
+                <p>
+                    A bit difficult to dance to.
+                </p>
+                <p>
+                    Is there a point to this?
+                </p>
+                <p>
+                    Think for a while.
+                </p>
+                <p>
+                    Maybe the music will help.
+                </p>
+                <p>
+                    <a href="dancePath_failed.html">
+                        <button class="redButton" style="float:right;"> No.</button>
+                    </a>
+                </p>
+            </div>
+
+        </div>
+    </body>
+    <!--javascript-->
+    <script>
+        // code found on W3 schools
+        // defines functions for play and pause buttons for audio one to 3
+        var music = document.getElementById("cassette");
+        // Audio 01
+        function playAudio() {
+            music.play();
+        }
+
+        function pauseAudio() {
+            music.pause();
+        }
+
+    </script>
+
+    </body>
+</section>
+
+</html>
