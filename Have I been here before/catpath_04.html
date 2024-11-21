@@ -9,9 +9,13 @@
 <!--desktop-->
 <section class="windows_screen95">
     <figure>
-        <img src="Assets/desktop95.png" height="100" width="100" style="cursor:wait">
-        <figcaption>My Computer</figcaption>
+        <!--Clikc this to open popup-->
+        <div onclick="togglePopUp()">
+            <img src="Assets/desktop95.png" height="100" width="100" style="cursor:pointer">
+            <figcaption>My Computer</figcaption>
+        </div>
     </figure>
+    <!--Recyling bin does nothing-->
     <figure>
         <img src="Assets/reclycling95.png" height="90" width="90" style="cursor:wait">
         <figcaption>Recycling Bin</figcaption>
@@ -27,7 +31,7 @@
         <!-- A button to open the popup, example taken from w3 schools and modified by me-->
         <img src="Assets/95_startButton.png" onclick="openForm()" height="50" style="cursor: pointer;">
     </div>
-    <!-- The form -->
+    <!-- The welcome form -->
     <div id="popup">
         <form action="/action_page.php">
             <div class="containertype_blue">
@@ -38,6 +42,29 @@
                 <p></p>
             </div>
         </form>
+        <!--I am not sure why when I delete this div the popup does some very strange things, so for the sake of the popup I will leave it here for formatting-->
+    </div>
+    <div onclick="togglePopUp()"></div>
+    </div>
+    <!-- The popup "my computer"form -->
+    </div>
+    <div class="popup">
+        <div class="containertype_blue_popup" id="myPopup02">
+            <button type="button" class="redButton" onclick="togglePopUp()">X</button>
+        </div>
+        <div class="grey_container_popup" id="myPopup">
+            <img src="Assets/meow_face.png">
+            <p style="font-family:Verdana, Geneva, Tahoma, sans-serif ;">
+                There's no point in keeping you here. You've made it this far. But consider spending more time with me.
+                Please. Meow.
+            <p></p>
+            <a href="riotpath_exit.html">
+                <div class="windows_95_buttonStyle"> Goodbye.</div>
+            </a>
+            <a href="IntroPage.html">
+                <div class="windows_95_buttonStyle"> Ok.</div>
+            </a>
+        </div>
     </div>
 
 
@@ -47,7 +74,7 @@
 <script>
     //script taken from lab 08
     const windows_play = new Audio("Assets/95_startup.mp3"); windows_play.volume = 0.2; windows_play.play();
-    //Form popup script taken from w3 schools
+    //Form and popup script modified from w3 schools
     function openForm() {
         document.getElementById("popup").style.display = "block";
     }
@@ -55,7 +82,15 @@
     function closeForm() {
         document.getElementById("popup").style.display = "none";
     }
+    function togglePopUp() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
 
+        var popup = document.getElementById("myPopup02");
+        popup.classList.toggle("show");
+    }
 </script>
+
+
 
 </html>

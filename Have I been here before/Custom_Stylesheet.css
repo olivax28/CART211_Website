@@ -422,6 +422,10 @@
     flex-wrap: wrap;
 }
 
+
+
+
+
 .containertype_blue_popup {
     visibility: hidden;
     text-align: right;
@@ -618,39 +622,52 @@
 
 }
 
+.grey_container_popup {
+    visibility: hidden;
+    background-color: #afafaf;
+    color: #000000;
+    border-radius: 5px;
+    padding: 20px;
+    width: 25%;
+    box-shadow: inset -4px -4px #444444, inset 4px 4px 0 #ffffff;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 
-
-.windows_xp_buttonStyle {
+.windows_95_buttonStyle {
     display: flex;
     align-items: center;
     text-align: center;
-    width: 120px;
+    width: 80px;
     color: #000000;
     border: 2px solid #000000;
-    box-shadow: inset 0px 3px 5px 0px rgba(20, 152, 253, 0.5);
-    background-color: #eaead1;
-    padding: 10 px;
+    box-shadow: inset -1px -1px #444444, inset 2px 2px 0 #ffffff;
+    background-color: #b5b5b5;
+    padding: 20 px;
     border-radius: 5px;
     display: inline-block;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     cursor: pointer;
 }
 
-.windows_xp_buttonStyle:hover {
+.windows_95_buttonStyle:hover {
     display: flex;
     align-items: center;
     text-align: center;
-    width: 120px;
+    width: 80px;
     color: #000000;
     border: 2px solid #000000;
-    box-shadow: inset 0px 3px 5px 0px rgba(15, 132, 222, 0.5);
-    background-color: #ffffe4;
-    padding: 10 px;
+    box-shadow: inset -1px -1px #9c9c9c, inset 2px 2px 0 #ffffff;
+    background-color: #e3e3e3;
+    padding: 20 px;
     border-radius: 5px;
     display: inline-block;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
 
 }
